@@ -542,7 +542,7 @@ def main():
     # Keep small first. This script is expensive.
     num_samples = 3
     seeds = [0]
-    offset_list = [0.0, 0.001, 0.002, 0.005, 0.01]
+    offset_list = [0, 0.005, 0.01, 0.02]
 
     m = 512
     noise_std = 0.0
